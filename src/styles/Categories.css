@@ -1,0 +1,14 @@
+.categories {
+  display: flex;
+  justify-content: center;
+}
+
+.categories button {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #0290ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}

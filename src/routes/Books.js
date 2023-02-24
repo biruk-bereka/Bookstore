@@ -1,5 +1,6 @@
 import React from 'react';
 import Book from '../components/Book';
+import Form from '../components/Form';
 
 const Books = () => {
   const books = [
@@ -24,6 +25,7 @@ const Books = () => {
       {books.map((book) => (
         <Book key={book.title} title={book.title} author={book.author} category={book.category} />
       ))}
+      <Form />
     </div>
   );
 };

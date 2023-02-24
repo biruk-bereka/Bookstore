@@ -1,0 +1,92 @@
+.book-container {
+  margin: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(124, 122, 122);
+  padding: 20px;
+}
+
+.book-container .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  margin: 0;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(98, 100, 95);
+}
+
+.title {
+  margin: 5px 0;
+  font-weight: bold;
+  font-family: "RobotoSlab", Arial, Helvetica, sans-serif;
+}
+
+.author {
+  margin: 0;
+  color: #4386bf;
+  font-family: "RobotoSlab", Arial, Helvetica, sans-serif;
+}
+
+.buttons {
+  margin: 20px 0;
+  font-family: "RobotoSlab", Arial, Helvetica, sans-serif;
+}
+
+.buttons button {
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  background-color: white;
+  color: #4386bf;
+}
+
+.status-container {
+  display: flex;
+  gap: 7rem;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+}
+
+.percentage {
+  font-size: 30px;
+}
+
+.completed {
+  color: rgb(126, 126, 126);
+  font-size: 20px;
+}
+
+.chapter-header {
+  color: rgb(126, 126, 126);
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.chapter {
+  font-family: "RobotoSlab", Arial, Helvetica, sans-serif;
+  color: rgb(74, 71, 71);
+  margin-top: 10px;
+}
+
+.btn-update {
+  cursor: pointer;
+  border: none;
+  padding: 5px 15px;
+  background-color: #0290ff;
+  color: white;
+  font-weight: 100;
+}

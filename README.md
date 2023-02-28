@@ -85,11 +85,12 @@ After you're finished please remove all the comments and instructions!
 - Use React Router for routing 
 - Create books and categories routes
 - Create Navbar, Book and Form Components
-
-### New Features
-
 - Create a a redux store  
 - Create books and categories slice 
+### New Features
+- Display books received from silce in react component
+- Implement add book functionality
+- Implement remove book functionality
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

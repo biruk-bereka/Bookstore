@@ -89,8 +89,9 @@ After you're finished please remove all the comments and instructions!
 - Create books and categories slice 
 ### New Features
 - Display books received from silce in react component
-- Implement add book functionality
-- Implement remove book functionality
+- Display books in UI using fecth book from api
+- Implement add book functionality to api
+- Implement remove book functionality from api
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -8,7 +8,8 @@ import { removeBook } from '../redux/books/bookSlice';
 const Book = ({
   id, title, author, category,
 }) => {
-  const dispatch = useDispatch();
+  const dispath = useDispatch();
+
   return (
     <div className="book-container">
       <div className="content">
@@ -17,7 +18,7 @@ const Book = ({
         <p className="author">{author}</p>
         <div className="buttons">
           <button type="button">Comments</button>
-          <button type="button" onClick={() => dispatch(removeBook(id))}>Remove</button>
+          <button type="button" onClick={() => dispath(removeBook(id))}>Remove</button>
           <button type="button">Edit</button>
         </div>
       </div>

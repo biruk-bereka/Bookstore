@@ -54,7 +54,6 @@ After you're finished please remove all the comments and instructions!
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -89,8 +88,9 @@ After you're finished please remove all the comments and instructions!
 - Create books and categories slice 
 ### New Features
 - Display books received from silce in react component
-- Implement add book functionality
-- Implement remove book functionality
+- Display books in UI using fecth book from api
+- Implement add book functionality to api
+- Implement remove book functionality from api
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,20 +134,45 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+Install dependencies: 
 
+```sh
+npm i
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
+```sh
+npm start
+```
 ### Run tests
 
 To run tests, run the following command:
 
+```sh
+npm test
+```
+
+To run the stylehint linter
+```sh
+ npx stylelint "**/*.{css,scss}"
+```
+
+To run the ESLint linter
+```sh
+  npx eslint "**/*.{js,jsx}"
+```
 ### Deployment
 
 You can deploy this project using:
+```sh
+  npm run build 
+```
+```sh
+  npm start
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -166,9 +191,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add reducer and actions]**
-- [ ] **[Use Redux in React components.]**
-- [ ] **[ Connect to API.]**
 - [ ] **[Styling ]**
 - [ ] **[Deploy ]**
 
@@ -189,9 +211,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project give a star!! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,15 +221,11 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank my partners. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

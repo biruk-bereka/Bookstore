@@ -19,6 +19,8 @@ const Form = () => {
       category: 'Fiction',
     };
     dispatch(addNewBook(book));
+    titleInput.current.vlaue = '';
+    authorInput.current.value = '';
   };
 
   return (

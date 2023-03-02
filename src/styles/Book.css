@@ -1,9 +1,16 @@
+.book-wrapper {
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 100vh;
+  padding: 5rem 0;
+}
+
 .book-container {
   margin: 40px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid rgb(124, 122, 122);
+  background-color: white;
+ 
   padding: 20px;
 }
 

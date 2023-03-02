@@ -14,7 +14,7 @@ const Books = () => {
   }, []);
 
   return (
-    <div>
+    <div className="book-wrapper">
       <div>
         {isLoading && <h1 style={{ textAlign: 'center', color: 'blue' }}>Loading...</h1>}
       </div>

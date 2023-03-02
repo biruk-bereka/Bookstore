@@ -40,7 +40,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-    - [New Features](#new-features)
+    - [New Feature](#new-feature)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -86,11 +86,14 @@ After you're finished please remove all the comments and instructions!
 - Create Navbar, Book and Form Components
 - Create a a redux store  
 - Create books and categories slice 
-### New Features
 - Display books received from silce in react component
 - Display books in UI using fecth book from api
 - Implement add book functionality to api
 - Implement remove book functionality from api
+
+### New Feature
+  
+  - Style the website
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,7 +194,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Styling ]**
 - [ ] **[Deploy ]**
 
 

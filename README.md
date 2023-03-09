@@ -24,7 +24,6 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b></b></h3>
@@ -40,10 +39,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-<<<<<<< HEAD
-=======
-    - [New Feature](#new-feature)
->>>>>>> 3c5fdb4e216105763fa2e4bfaeab9e66cbb888cb
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -92,12 +87,8 @@ After you're finished please remove all the comments and instructions!
 - Display books received from silce in react component
 - Display books in UI using fecth book from api
 - Implement add book functionality to api
-- Implement remove book functionality from api
-
-### New Feature
-  
-  - Style the website
-  
+- Implement remove book functionality from api  
+    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -196,7 +187,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Deploy ]**
+- [ ] **[Making improvements ]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

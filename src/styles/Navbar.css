@@ -1,7 +1,10 @@
 .header {
   display: flex;
-  margin: 1rem 5rem;
+  padding: 1rem 5rem;
   align-items: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
 
 .name {
@@ -40,4 +43,9 @@
   line-height: normal;
   letter-spacing: 1.9px;
   color: black;
+}
+
+.profile {
+  width: 40px;
+  height: auto;
 }

@@ -40,7 +40,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-    - [New Features](#new-features)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
@@ -86,7 +85,6 @@ After you're finished please remove all the comments and instructions!
 - Create Navbar, Book and Form Components
 - Create a a redux store  
 - Create books and categories slice 
-### New Features
 - Display books received from silce in react component
 - Display books in UI using fecth book from api
 - Implement add book functionality to api
@@ -98,8 +96,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> There is no live version link for now
-- [Live version]()
+- [Bookstore](https://bookstore-kvk0.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
